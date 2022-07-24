@@ -16,6 +16,7 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 import './elements/textbox_commands'
+import './elements/checkbox'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
