@@ -1,1 +1,5 @@
-{}
+{
+    "e2e": {
+        "baseUrl": "https://demoqa.com/"
+      }
+}
