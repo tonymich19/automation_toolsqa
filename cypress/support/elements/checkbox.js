@@ -56,14 +56,6 @@ Cypress.Commands.add('checkSpan', (wordCheck) =>{
     
 })
 
-Cypress.Commands.add('', () =>{
-    
-})
-
-Cypress.Commands.add('', () =>{
-    
-})
-
 /***************** Assertions ********************/
 
 Cypress.Commands.add('assertHaveSelected', (wordCheck) =>{
