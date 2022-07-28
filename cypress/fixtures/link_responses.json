@@ -1,0 +1,9 @@
+{
+    "created_response": "Link has responded with staus 201 and status text Created",
+    "no_content": "Link has responded with staus 204 and status text No Content",
+    "moved": "Link has responded with staus 301 and status text Moved Permanently",
+    "bad_request": "Link has responded with staus 400 and status text Bad Request",
+    "unauthorized": "Link has responded with staus 401 and status text Unauthorized",
+    "forbidden": "Link has responded with staus 403 and status text Forbidden",
+    "not_found": "Link has responded with staus 404 and status text Not Found" 
+}
