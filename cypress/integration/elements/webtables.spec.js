@@ -5,25 +5,6 @@ describe('testing webtables elements from ToolsQA', () => {
         cy.visit('/webtables')
     })
 
-    it('Verify that all boxes inside the Downloads toggle have been selected when checking Downloads', () => {
-        cy.get(".rt-tr > :nth-child(2)")
-        .each(($e1, index) => { //iterating through array of elements
-            const StoreText = $e1.text();      //storing iterated element
-            if (StoreText.includes("Vega")) {
-                cy.log('açooooou')
-                //If text found,iteration stops
-                cy.get("td:nth-child(2)")       //gets the CSS of second column
-                    .eq(index)                      //grabs the content in index value
-                    .then(function (Taskcolumn) {
-                        const Tasktext = Taskcolumn.text();
-                        expect(Tasktext).to.equal("Wireframes");
-                        //assertion to verify text
-                        // Do something with this specific element...
-                    })
-            }
-        })
-    })
-
     it('Verify that a new registry is created when completing Add form', () => {
         cy.clickAddButton()
         cy.typeFirstName('Arnold')
@@ -69,7 +50,7 @@ describe('testing webtables elements from ToolsQA', () => {
         cy.assertToHave('The Terminator')
     })
 
-    it.only('Verify that pagination works', () => {
+    it('Verify that pagination works', () => {
         cy.clickAddButton()
         cy.typeFirstName('jose')
         cy.typeLastName('Schwarzenegger')

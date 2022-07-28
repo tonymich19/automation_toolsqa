@@ -18,6 +18,7 @@ import './commands'
 import './elements/textbox_commands'
 import './elements/checkbox_commands'
 import './elements/webtables_commands'
+import './elements/button_commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
