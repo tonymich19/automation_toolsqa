@@ -5,7 +5,7 @@ describe('testing radio button elements from ToolsQA', () => {
         cy.visit('/radio-button')
     })
 
-    it('Verify that information are not load when form is submitted with an invalid email', () => {
+    it('Verify that radio but selected is loaded when checked', () => {
 
         cy.get('#yesRadio').check({force : true})
         cy.get('.text-success').should('contain.text', 'Yes')

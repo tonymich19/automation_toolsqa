@@ -16,7 +16,11 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 import './elements/textbox_commands'
-import './elements/checkbox'
+import './elements/checkbox_commands'
+import './elements/webtables_commands'
+import './elements/button_commands'
+import './elements/links_commands'
+import './elements/upload_download_commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
@@ -27,3 +31,4 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     // failing the test
     return false
   })
+
