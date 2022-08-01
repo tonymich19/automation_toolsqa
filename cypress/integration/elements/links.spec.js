@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 describe('testing link elements from ToolsQA', () => {
-    beforeEach(function ()  {
+    beforeEach( function ()  {
         cy.visit('/links')
         cy.fixture('link_responses').then((linkResponses) => {
             this.linkResponses = linkResponses
