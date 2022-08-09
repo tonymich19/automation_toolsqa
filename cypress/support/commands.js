@@ -68,7 +68,7 @@ Cypress.Commands.add('selectState', (state) => {
     cy.xpath('//div[@class= " css-11unzgr"]/div')
         .each(function($ele, index, $input){
             if($ele.text().includes(state)){
-                cy.wrap($ele).click()
+                cy.wrap($ele).click({force: true})
                 return false
             }
             else {
