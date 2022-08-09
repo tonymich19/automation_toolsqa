@@ -1,6 +1,10 @@
 {
-  "name": "Using fixtures to represent data",
+  "name": "Arnold",
+  "lastname": "Shwazenegger",
   "email": "hello@cypress.io",
+  "mobileNumber": "5511988888",
+  "currentAdress": "250 5th Ave, New York, NY 10118, USA", 
   "body": "Fixtures are a great way to mock data for responses to routes",
-  "download": "https://upload.wikimedia.org/wikipedia/en/a/a9/Example.jpg"
+  "download": "https://upload.wikimedia.org/wikipedia/en/a/a9/Example.jpg",
+  "birthDate": "30 May 1947"
 }
